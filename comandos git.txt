@@ -1,0 +1,30 @@
+Comandos Git e Git Hub
+
+
+git init... inicia o repositorio
+git config --global user.name "developer.andreLuiz"
+git config --global user.email "developer.andreluiz@gmail.com"
+git remote add origin <url> ... associar repositório local com online
+git clone <url> baixa repositório com arquivos e commits e branchs
+git status ... vermelho arquivos nao rastreados  verde arquivos rastreados
+git add . 
+git commit -m "Descrição do commit"
+git log 
+git log --oneline
+git clean -df  depois git checkout -- .    ... volta para o ultimo git
+git reset --soft HEAD~1    ... apaga o ultimo commit mantendo a alteração
+git reset --hard HEAD~1    ... apaga o ultimo commit apagando a alteração
+git checkout <codigo do commit> vai para o commit específico
+git checkout <nome do branch> ... vai para o ultimo commit da branch
+git push -u origin master ... sobe repositorio
+git pull origin master .... baixa o projeto atualizado
+
+
+
+
+
+
+
+
+
+Tecla Esc depois :q! ... quando esquecer de esrever menssagem no commit 
