@@ -1,0 +1,10 @@
+﻿* Instalar System.Data.SQLite.Core nuget
+
+
+* Adicionar Referencia System.Speech  Local
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Speech.dll
+
+
+*instalar pacotes win rar do pc 
+*importar dll Microsoft.Speech.dll
+C:\Program Files (x86)\Microsoft SDKs\Speech\v11.0\Assembly\Microsoft.Speech.dll
