@@ -158,18 +158,21 @@ namespace Curso_Reconhecimento_Sintese_Voz
             {
                 palavras.Add(item);
             }
-            
 
-            GrammarBuilder grammarBuilderPalavras = new GrammarBuilder();
+            if (lst.Count>0)
+            {
+                GrammarBuilder grammarBuilderPalavras = new GrammarBuilder();
 
-            grammarBuilderPalavras.Append(palavras);
-            
-            Grammar grammar = new Grammar(grammarBuilderPalavras);
-            reconhecimento.LoadGrammar(grammar);
+                grammarBuilderPalavras.Append(palavras);
 
-            reconhecimento.RecognizeAsync(RecognizeMode.Multiple);
+                Grammar grammar = new Grammar(grammarBuilderPalavras);
+                reconhecimento.LoadGrammar(grammar);
 
-            reconhecimento.SpeechRecognized += recPalavras;
+                reconhecimento.RecognizeAsync(RecognizeMode.Multiple);
+
+                reconhecimento.SpeechRecognized += recPalavras;
+            }
+           
         }
         void InicializarReconhecimento()
         {

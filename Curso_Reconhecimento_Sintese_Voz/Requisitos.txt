@@ -8,3 +8,20 @@ C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4
 *instalar pacotes win rar do pc 
 *importar dll Microsoft.Speech.dll
 C:\Program Files (x86)\Microsoft SDKs\Speech\v11.0\Assembly\Microsoft.Speech.dll
+
+
+
+*Quem sou eu proposta do curso
+*Programa Rodando
+*Requisitos
+
+*Banco de Dados
+
+*Fala 
+
+*Reconhecimento
+
+
+*********************
+como instalar sqllite
+como instalar o visual studio
